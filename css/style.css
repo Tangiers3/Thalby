@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.d-f{
+    display: flex;
+}
+header{
+    background-color: white;
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+
+}
+.container{
+    max-width: 1088px;
+    margin: auto;
+}
+/*header .container{
+    display: flex;
+    justify-content: space-between;
+}*/
+.header-logo{
+    left: 50%;
+    top: 16px;
+    margin-left: -40px;
+    position: absolute;
+    padding-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+header nav ul li a{
+    color: #1C1B1B;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    margin-left: 28px;
+
+
+}
+.logo_img ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.main-wrapper {
+    background-color: #F0EFEB;
+    display: flex;
+}
+.main-wrapper-tittle{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-text h1{
+    color: #000;
+    font: 700 60px 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 42px;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+.main-text p{
+    color: #000;
+    font: 400 24px 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 26px;
+    margin-left: 24px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-card{
+    width: 599px;
+    height: 521px;
+
+    flex-shrink: 0;
+    display: flex;
+}
+.main-button{
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #000;
+    width: 129px;
+    height: 36px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 99px;
+    margin-left: 24px;
+}
+
+.logo_img ul li a  img{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.guides-wrapper{
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.guides-explain h2{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+.guides-explain p{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.guides-explain p:last-of-type{
+    margin-top: 47px;
+    margin-bottom: 87px;
+}
+
+.best-sellers-wrapper h3{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 52px;
+}
+.french-cards h4{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 27px;
+}
+.french-cards p{
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17px;
+}
+.french-cards a{
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    margin-bottom: 248px;
+    display: block;
+
+}
+.french-culture-wrap{
+    display: flex;
+}
+.french-cards{
+    margin: auto;
+}
+.people-society-wrapper{
+    background: rgba(204, 204, 204, 0.30);
+
+}
+
+.people-society-wrapper article{
+    flex-direction: column;
+
+    justify-content: center;
+    margin-left: 50px;
+}
+.people-society-wrapper article h2{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 31px;
+}
+.people-society-wrapper article p{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+
+}
+.people-society-wrapper article a{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.people-society-wrapper img{
+    margin-top: 76px;
+    margin-bottom: 51px;
+}
+.moroccan-culture-wrapper div{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+
+}
+
+.moroccan-culture-wrapper{
+    background: rgba(204, 204, 204, 0.60);
+}
+
+
+.moroccan-culture-wrapper article h2{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 31px;
+}
+.moroccan-culture-wrapper article p{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+
+}
+.moroccan-culture-wrapper article a{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.moroccan-culture-wrapper img{
+    margin-top: 76px;
+    margin-bottom: 51px;
+}
+.moroccan-culture-wrapper article{
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
