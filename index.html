@@ -9,35 +9,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/mobile_menu.css">
-    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+
+
+
 </head>
 <body>
 <header>
-    <nav>
-    <div class="container">
-        <div class="header_body">
-        <ul>
-            <li>
-                <a href="#">Shop</a>
-            </li>
-            <li>
-                <a href="#">Collections</a>
-            </li>
-            <li>
-                <a href="#">Try a Free Guide</a>
-            </li>
-            <li>
-                <a href="#">Stories</a>
-            </li>
-        </ul>
-        </div>
+
+<!--    <div id="toggle">
+        <input type="checkbox">
+        <span></span>
     </div>
-    </nav>
-        <a href="#" class="header-logo">
+
+    <div id="menu">
+        <div id="logo">
             <img src="images/thalby_logo.svg" alt="">
-        </a>
-    <div class="logo_img">
+        </div>-->
+
+        <nav class="  navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Collections <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Try a Free Guide</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link">
+                            Stories
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="head-logo position-absolute">
+                    <img src="images/thalby_logo.svg" alt="image">
+                </a>
+                <div class="logo_img">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/inst_thalby.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/search_thalby.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/shop_thalby.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <!--  <a href="#" class="header-logo">
+            <img src="images/thalby_logo.svg" alt="">
+        </a>-->
+   <!-- <div class="logo_img">
         <ul>
             <li>
                 <a href="#">
@@ -55,7 +99,7 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div>-->
 </header>
         <main>
             <section class="main-wrapper">
@@ -192,7 +236,146 @@
                 </div>
             </section>
 
+            <section>
+                <div class="container">
+                    <article class="features">
+                    <h4> Some of the features that <br>make Thalby guides unique</h4>
+                    </article>
+                </div>
+                <div class="point container">
+                    <div class="pointer">
+                        Written by <br> locals
+                    </div>
+
+                    <div class="pointer">
+                        Packed with <br> insight
+                    </div>
+
+                    <div class="pointer">
+                        Interviews with <br> diverse voices
+                    </div>
+
+
+
+
+                    <div class="pointer">
+                        Key facts and <br> etiquette tips
+                    </div>
+
+                    <div class="pointer">
+                        A concise <br> 1-hour read
+                    </div>
+
+                    <div class="pointer">
+                        Instant <br> digital access
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <section class="interviews-wrapper">
+                <div class="container interviews-container">
+
+                    <h2>
+                        Each Thalby guide includes interviews with <br>
+                        a range of fascinating voices, such as
+                    </h2>
+
+                    <div class="peoples-interviews d-flex">
+
+                        <div class="interview">
+
+                            <img src="images/camille.png" alt="">
+                            <p class="camille's-speech">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+
+                            <p class="camille">
+                                Camille Muller, <br> Landscape Designer, France
+                            </p>
+
+                            <a href="#">Discover</a>
+                        </div>
+
+                        <div class="interview">
+
+                            <img src="images/sonia.png" alt="">
+                            <p class="sonya's-speech">"Magic is not magic in the sense that I can just wish for anything."</p>
+
+                            <p class="sonia">
+                                Sonia Kowalewski, <br> Witch, Germany
+                            </p>
+
+                            <a href="#">Discover</a>
+                        </div>
+
+                        <div class="interview">
+
+                            <img src="images/lilly.png" alt="">
+                            <p class="lilly's-speech">"I was eight years old when I entered my first competition. I won it."</p>
+
+                            <p class="lilly">
+                                Lilly Stoephasius, <br> Skateboarder, Germany
+                            </p>
+
+                            <a href="#">Discover</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="keep-in-touch-wrapper">
+                <div class="keep-in-touch-content container d-flex">
+
+
+
+                    <h3>
+                        Keep in touch
+                    </h3>
+
+                    <p>
+                        Get our travel advice, global views and travel freebies in your <br> inbox
+                    </p>
+
+
+                    <form>
+                        <div class="form-row container-form container">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col container-form container">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">
+
+                                </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">
+                                </small>
+                                <button type="button" class="btn btn-subscribe container ">Subscribe</button>
+                            </div>
+
+
+
+                    </form>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
         </main>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
+<script src="bootstrap-4.6.2-dist/js/bootstrap.js"></script>
 </body>
 </html>
